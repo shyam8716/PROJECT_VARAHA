@@ -108,11 +108,22 @@
 .How_do_you_perform_file_handling_in_Python{
     text-align:start;
             margin:43vw;
-            color:calc(What_are_decorators_in_Python);
+            color:lightsteelblue;
             letter-spacing:43vw;
             text-decoration:calc(What_are_decorators_in_Python);
             line-height:43vw;
             border:calc(What_are_decorators_in_Python);
             font-family:Haettenschweiler;
             padding:43vw;
+}
+.What_is_the_difference_between_range_and_xrange{
+    text-align:calc(How_do_you_perform_file_handling_in_Python);
+            margin:calc(How_do_you_perform_file_handling_in_Python);
+            color:lightyellow;
+            letter-spacing:calc(How_do_you_perform_file_handling_in_Python);
+            text-decoration:calc(What_are_decorators_in_Python);
+            line-height:calc(How_do_you_perform_file_handling_in_Python);
+            border:chartreuse;
+            font-family:Impact;
+            padding:calc(How_do_you_perform_file_handling_in_Python);
 }
