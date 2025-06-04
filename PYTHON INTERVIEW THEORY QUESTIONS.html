@@ -1,0 +1,391 @@
+<html>
+  <head>PYTHON INTERVIEW THEORY QUESTIONS
+    <title>PYTHON INTREVIEW THEORY QUESTIONS</title>
+    <link rel="stylesheet"href="python interview theory questions.css">
+  </head>
+  <body bgcolor="Terracotta">
+    <div class="GUDI_VAN_ROSSUMS_PHOTO">
+      <h1 alian="centre">GUDI VAN ROSSUM</h1> 
+      <img class="gudi_van_rossum" src="c:\Users\shyamu\OneDrive\Desktop\my images\gudi_van_rossum.jpeg">
+      <p style="color:aliceblue;"><mark>Birth: </mark>January 31, 1956<br/>
+           <mark>Place: </mark>The Hague, Netherlands<br/>
+           <mark>Status</mark>Alive (as of 2025)<br/>
+           <mark>Contribution:</mark><br/>
+          =>Created the Python programming language in 1989, released in 1991.<br/>
+          => Introduced simple, readable syntax that revolutionized programming education<br/>
+          => Served as Python’s BDFL (Benevolent Dictator For Life) until 2018.<br/>
+          => Led Python’s development through major versions including Python 2 and Python 3.<br/>
+          => Worked at Google to improve internal tools using Python.<br/>
+          => Joined Dropbox and optimized performance using Python.<br/>
+          => Became a Distinguished Engineer at Microsoft in 2020 to speed up Python.<br/>
+          => Advocated for open-source collaboration and community-driven development.<br/>
+          => Helped make Python the top language in AI, data science, and automation.<br/>
+          => Inspired millions of beginners and professionals to learn programming.<br/>
+    </div>
+    <div class="What_is_Python_and_what_are_its_key_features">
+      <h1><b>WHAT IS PYTHON</b></h1>
+      <p style="color: darkred;">1*<mark>Python</mark>is a computer programming language often used to build websites and software, automate tasks, and analyze data.<br/>
+      2*<mark>Python</mark> is a general-purpose language, not specialized for any specific problems, and used to create various programmes<br/>
+      3* This versatility and its beginner-friendliness have made it one of the most used programming languages today.<br/>
+      4*In 2020, more than one-third of Indian IT professionals said Python was their preferred programming language.<br/>
+      5*It continues to top lists of the most desired programming languages in the country.<br/></p>
+      <h2><i>WHAT ARE IT'S KEY FEATURES</i></h2>
+        <style>
+          ol{
+            color:ivory;
+            letter-spacing:28q;
+            text-decoration:ivory;
+            text-align:var(28q);
+            line-height:28q;
+            border:28vw;
+            font-family:Arial;
+            margin:28q;
+            padding:28q;
+          }
+        </style>
+        <ol type="A">
+          <li>It is a portable language</li>
+          <li>It has a extensible libraries</li>
+          <li>It is a indentation language</li>
+          <li>Python is a interpreted language</li>
+      </ol>
+    </div>
+    <div class="How_does_Python_handle_memory_management">
+      <h3><strong>How does Python handle memory management?</strong></h3>
+      <style>
+        ol{
+        color:lavenderblush;
+    letter-spacing:30rch;
+    text-decoration:lavenderblush;
+    text-align:unset;
+    line-height:30rch;
+    border:antiquewhite;
+    font-family:'Lucida Grande';
+    margin:30rch;
+    padding:30rch;
+        }
+      </style>
+      <ol type="a">
+        <li><mark>Automatic Memory Management:</mark>Python uses automatic memory management via the built-in<u>garbage collector.</u></li>
+        <li><mark>Reference Counting:</mark>Every object has a reference count; memory is freed when the count reaches zero.</li>
+        <li><mark>Garbage Collection:</mark> Python’s garbage collector handles cyclic references using a<u>generational GC system.</u></li>
+        <li><mark>Memory Pools:</mark>Python (via CPython) uses<u> pymalloc,</u>a private heap with memory pools, for small object allocation.</li>
+        <li><mark>Object-Specific Allocators:</mark>: Different object types (like lists, dicts) use<u>specialized memory allocators.</u></li>
+        <li><mark>Interning:</mark>Immutable objects like small integers and strings may be<u> interned</u> for memory efficiency.</li>
+        <li><mark>Memory Leak Prevention: </mark> Developers can use tools like gc, tracemalloc, and objgraph to<u>track memory leaks.</u></li>
+        <li><mark>Manual Control:</mark> Modules like gc allow<u>manual garbage collection</u> and tuning of GC behavior.</li>
+      </ol>
+     </div>
+     <div class="What_is_PEP_8_and_why_is_it_important">
+      <style>
+        ol{
+           color:lawngreen;
+           letter-spacing:31rem;
+           text-decoration:aqua;
+           text-align:initial;
+           line-height:31rem;
+           border:rgb(97, 177, 16);
+           font-family:'Lucida Sans Unicode';
+           margin:31rem;
+           padding:31rem;
+          }
+      </style>
+      <ol type="i">
+        <li><mark>PEP 8</mark> is the<mark> Python Enhancement Proposal</mark>that defines the<u>style guide</u>for writing clean and readable Python code.</li>
+        <li>It promotes<mark> consistency</mark>in code formatting across the Python community.</li>
+        <li>It improves<mark>code readability </mark>and<mark> maintainability</mark></li>
+        <li>It helps teams write code in a<mark> uniform style,</mark>reducing confusion.</li>
+        <li>It covers naming conventions, indentation, line length, and more.</li>
+        <li>Tools like flake8 and pylint help <mark>enforce PEP 8 </mark>standards.</li>
+        <li>Following PEP 8 makes code more <mark>professional and collaborative.</mark></li>
+      </ol>
+     </div>
+      <div class="explain_the_difference_between_lists_and_tuples_in_python">
+        <h1><b>explain the difference between lists and tuples set dictionaryin python</b></h1>
+      </div>
+      <style>
+        table{
+          text-align:inherit;
+          margin:32ric;
+         color:lightblue;
+         letter-spacing:32ric;
+         text-decoration:lightblue;
+         line-height:32ric;
+         border:aquamarine;
+         font-family:'Trebuchet MS';
+         padding:32ric;
+        }
+      </style>
+      <table>
+        <table border="1">
+        <tr>
+          <th>LIST</th>
+          <th>TUPLE</th>
+          <th>SET</th>
+          <th>DICTIONARY</th>
+          <th>string</th>
+        </tr>
+        <tr>
+          <td>
+          1.List is a defined with([])so list can have same and different data type elements.</br>
+          2. It is nothing but homogeneous and heterogeneous<br/>
+          3.In session order is preserved<br/>
+          4.List can be accessed<br/>
+            (i.)Indexing<br/> (ii.)Sclicing<br/> (iii.)Looping<br/>
+          5.List is mutable(changable)</br/>
+          6.It is one of the important data structure</td>
+          <td> 
+            1.Tuple is a data type (or) basic data structure in python<br/>
+            2.Tuple can be defined with(())the symbol<br/>
+            3.Tuple can have a same data type(homogeneous)(or)different data type elements(heterogeneous)<br/>
+            4.In tuple index plays a main role<br/>
+            5.Tuple is Immutable<br/>
+            6.Tuple is a comma(,)separated value of object<br/>
+            7.Paranthesis is optional but recommanded<br/>
+            8.Tuple can ba accessed<br/>
+            (i.)Indexing (ii.)Slicing (iii.)Looping
+          </td>
+          <td>
+            1.Set is one of the data type (or) data structure in python<br/>
+            2.Set is defined with symbol({})<br/>
+            3.Set can't accept duplicate values<br/>
+            4.Indexing slicing is not possible in sets<br/>
+            5.Insertion order is not preserved<br/>
+            6.Set can access through<br/>
+            (i.)Add<br/>(ii.)Update<br/>(iii.)Pop<br/>(iV.)Remove<br/>(v.)Discard(vi.)Clear
+          </td>
+          <td>
+            1.It is represented with({})<br/>
+            2.Dictionary is a collection of items so one key value pair is colled an item<br/>
+            3.Every ksy value pair is separated with(:)<br/>
+            4.We can define a duplicate values but not duplicate keys<br/>
+            5.Indexing and slicing is not possible<br/>
+            6.We can loop dictionary<br/>
+            7.Indexing is not possible<br/>
+            8.Dictionary can be access through<br/>
+            (i.)Pop<br/>(ii.)Del(iii.)Clear
+          </td>
+          <td>
+            1.String is one of the data type in python language<br/>
+            2.String is a single (or) collection of characters<br/>
+            3.Whenever we intialize a string we need to provide in '' (or) ""<br/>
+            4.String is a immutable(unchangable)<br/>
+            5.By default string is immutable<br/>
+            6.String can be access through<br/>
+            (i.)Length<br/> (ii.)Indeexing<br/> (iii.)Count<br/>(iV.)Find<br/>(v.)Strip<br/>(vi.)Replace<br/>(vii.)Split<br/>(viii.)Join<br/>(ix.)Upper<br/>(x.)Lower<br/>(xi.)Swapcase(xii.)Title<br/>(xiii.)capitalcase
+          </td>
+        </tr>
+      </table>
+      <div class="What_are_Python_built_in_data_types">
+        <style>
+          ol{
+            text-align:start;
+            margin:33rlh;
+            color:lightcoral;
+            letter-spacing:33rlh;
+            text-decoration:lightcoral;
+            line-height:33rlh;
+            border:azure;
+            font-family:sans-serif;
+            padding:33rlh;
+          }
+        </style>
+        <ol type="I">
+          <li>INTEGER</li>
+          <li>FLOAT</li>
+          <li>STRING</li>
+          <li>COMPLEX</li>
+          <li>BOOLEAN</li>
+        </ol>
+        <ul style="list-style-type:disk;">
+          <li>int – Integer type, e.g., 10, -5, 0</li>
+          <li>float – Floating point number, e.g., 3.14, -0.001</li>
+          <li>complex – Complex number, e.g., 2 + 3j</li>
+          <li>bool – Boolean value, either True or False</li>
+          <li>str – String, e.g., "hello", '123'</li>
+          <li>list – Ordered, mutable collection, e.g., [1, 2, 3]</li>
+          <li>tuple – Ordered, immutable collection, e.g., (1, 2, 3)</li>
+          <li>set – Unordered, unique elements, e.g., {1, 2, 3}</li>
+          <li>frozenset – Immutable version of a set, e.g., frozenset([1, 2, 3])</li>
+          <li>dict – Key-value pairs, e.g., {'name': 'Alice', 'age': 25}</li>
+          <li>bytes – Immutable sequence of bytes, e.g., b'hello'</li>
+          <li>bytearray – Mutable sequence of bytes, e.g., bytearray(b'hello')</li>
+          <li>memoryview – Memory view of another object, e.g., memoryview(bytes(5))</li>
+          <li>NoneType – Represents the absence of a value, i.e., None</li>
+        </ul>
+      </div>
+      <div class="How_does_exception_handling_work_in_Python">
+        <style>
+          ul{
+             text-align:right;
+            margin:34svb;
+            color:lightcyan;
+            letter-spacing:34svb;
+            text-decoration:lightcyan;
+            line-height:34svb;
+            border:beige;
+            font-family:Helvetica;
+            padding:34svb;
+          }
+        </style>
+        <ul style="list-style-type:square;">
+          <li><mark>try block</mark> is used to write code that may raise an exception.</li>
+          <li><mark>except block</mark> catches and handles specific or general exceptions.</li>
+          <li><mark>else block</mark> runs if no exception occurs in the try block.</li>
+          <li><mark>finally block</mark> runs regardless of whether an exception occurred or not.</li>
+          <li>You can catch <mark>multiple exceptions</mark> using multiple except blocks.</li>
+          <li>Use <mark>except Exception as e</mark> to access the exception message or object.</li>
+          <li>Use <mark>raise</mark> to manually throw an exception.</li>
+          <li>Use <mark>assert</mark> to <mark>raise AssertionError</mark> if a condition is false.</li>
+          <li>Built-in exceptions include <mark>ZeroDivisionError, TypeError, ValueError,</mark> etc.</li>
+          <li>You can define <mark>custom exceptions</mark> by subclassing the Exception class.</li>
+        </ul>
+      </div>
+      <div class="What_are_args_and_kwargs_in_Python_functions">
+        <style>
+          ul{
+             text-align:left;
+            margin:35svh;
+            color:lightgoldenrodyellow;
+            letter-spacing:35svh;
+            text-decoration:lightgoldenrodyellow;
+            line-height:35svh;
+            border:bisque;
+            font-family:Arial;
+            padding:35svh;
+          }
+        </style>
+        <ul type="square">
+        <li><mark>*args<</mark> allows a function to accept any number of positional arguments as a tuple.</li>
+        <li><mark>**kwargs</mark> allows a function to accept any number of keyword arguments as a dictionary.</li>
+        <li>Use <mark>*args</mark> when you don’t know how many arguments will be passed.</li>
+        <li>Use <mark>**kwargs</mark> when you want to handle named arguments dynamically.</li>
+        <li><mark>*args</mark> comes before **kwargs in the function definition.</li>
+        <li>Inside the function, <mark>args</mark> is a tuple and <mark>kwargs</mark> is a dictionary.</li>
+        <li>You can combine regular parameters, <mark>*args,</mark> and <mark><**kwargs<mark> in one function.</li>
+        <li>Useful for writing <mark>flexible and reusable functions.</mark></li></ul>
+      </div>
+      <div class="Explain_the_concept_of_list_comprehensions_with_an_example">
+        1.List comprehension provides a<mark> concise way to create lists</mark> using a single line.<br/>
+    2.The syntax is: <mark>[expression for item in iterable]</mark>.<br/>
+    3.You can add a condition using:<mark> [expression for item in iterable if condition]</mark>.<br/>
+    4.It is more <mark>compact and faster</mark> than using a for loop to create lists.<br/>
+    5.List comprehensions can<mark>replace map() and filter()</mark> functions in many cases.<br/>
+    6.They can include <mark>nested loops</mark> for creating complex list.<br/>
+    7.They return a <mark>>new list</mark> without modifying the original data.<br/>
+    8.Useful for <mark>transforming, filtering, and constructing</mark> lists in fewer lines.<br/>
+  </div>
+  <style>
+    .code-block {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        pre {
+            margin: 0;
+        }
+  </style>
+  <div class="code-block">
+  <h4><u style="color: blue">LIST COMPREHENSION EXAMPLE:</u></h4>
+  <pre style="color: darkred;">
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;LIST COMPREHENSION EXAMPLE&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    x=[1,2,3,4,5]
+    y=[]
+    for elements in x:
+    y.append(element**2)
+    print(x)
+    print(y)
+    for elements in x:
+    y.append(element**3)
+    print(x)
+    print(y)
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </pre>
+</div>
+  <div class="What_is_a_lambda_function_in_Python">
+    1.A lambda function is a small anonymous function defined with the <mark>lambda</mark> keyword<br/>.
+    2.Syntax: <mark>lambda arguments: expression.</mark><br/>
+    3.Lambda functions can have <mark>any number of arguments</mark> but only <mark>one expression</mark>.<br/>
+    4.Commonly used for <mark>short, throwaway functions</mark>.<br/>
+    5.Often used with functions like <u>map()</u>, <u>filter()</u>, and <u>sorted()</u>.<br/>
+    6.Returns the result of the <mark>expression automatically</mark> (no need for <u>return</u>).<br/>
+    7.Not ideal for <mark>complex logic</mark> — use <u>def</u> for those cases.<br/>
+    8.They are <mark>anonymous</mark> — not bound to a name unless assigned to a variable.<br/>
+  </div>
+  <div class="How_do_you_manage_packages_and_modules_in_Python">
+    1.Use the <u>import</u> statement to <mark>include modules or packages</mark> in your script.
+    2.Use <u>pip install package_name</u> to <mark>install external packages</mark> from PyPI.
+    3.Organize related modules using a <mark>package folder with</mark><u> __init__.py</u> file.
+    4.Use <u>from module import function</u> to import specific elements.
+    5.Use as to give <mark>aliases</mark> to modules or functions (e.g., <u>import numpy as np</u>).
+    6.Use <u>sys.path</u> to view or modify the <mark>module search path</mark>.
+    7.Use <u>virtualenv</u> or venv to manage <mark>project-specific environments</mark>.
+    8.Use <u>requirements.txt</u> to list dependencies for <mark>easy installation</mark> via <u>pip install -r requirements.txt</u>.
+    9.Use<u>__name__ == "__main__"</u> to run code only when a module is executed directly.
+    10.Standard modules come with Python and can be used <mark>without installing</mark> (e.g., <u>math, os, datetime</u>).
+  </div>
+  <div class="What_is_the_difference_between_deep_copy_and_shallow_copy">
+    1.<mark>Shallow copy</mark> creates a new object but <mark>copies references</mark> of nested objects.<br/>
+    2.<mark>Deep copy</mark> creates a new object and <mark>recursively copies all nested objects.</mark><br/>
+    3.Changes to nested objects affect the original in <mark>shallow copy</mark>, but not in <mark>deep copy</mark>.<br/>
+    4.Use <u>copy.copy()</u> for shallow copy from the copy module.<br/>
+    5.Use <u>copy.deepcopy()</u> for deep copy from the copy module.<br/>
+    6.Shallow copy is <mark>faster</mark> but may cause side effects with mutable objects.<br/>
+    7.Deep copy is <mark>safer</mark> for complex objects but uses more memory and time.<br/>
+  </div>
+  <div class="Explain_the_Global_Interpreter_Lock__GIL__in_Python">
+    1.The <mark>GIL is a mutex</mark> that allows only one thread to execute Python bytecode at a time.<br/>
+    2.It exists to <mark>protect memory management</mark> in CPython's interpreter.<br/>
+    3.GIL makes <mark>multi-threading inefficient</mark> for CPU-bound tasks.<br/>
+    4.<mark>I/O-bound</mark> tasks (e.g. file, network) can still benefit from threading despite the GIL.<br/>
+    5.It affects only <mark>CPython</mark> (the standard Python interpreter), not Jython or IronPython.<br/>
+    6.GIL ensures <mark>thread safety</mark> at the cost of parallel performance.<br/>
+    7.Use <mark>multiprocessing</mark> instead of threading for true parallelism in CPU-bound code.<br/>
+    8.Removing GIL is complex due to Python's <mark>reference counting</mark> and object model.<br/>
+    9.Tools like <mark>Cython, Numba</mark>, and <mark>subprocesses</mark> can help bypass GIL limitations.<br/>
+    10.The GIL is a key reason Python is not ideal for <mark>multi-core CPU parallelism.</mark><br/>
+  </div>
+  <div class="How_does_Python_handle_multithreading">
+    1.Python uses the threading <mark>module</mark> to create and manage threads.<br/>
+    2.The <mark>Global Interpreter Lock (GIL)</mark> allows only one thread to execute Python bytecode at a time.<br/>
+    3.<mark>Multithreading is effective</mark> for I/O-bound tasks (e.g., file or network operations).<br/>
+    4.It is <mark>not efficient for CPU-bound tasks</mark> due to the GIL.<br/>
+    5.Each thread shares the <mark>same memory space</mark>, which simplifies data sharing but requires synchronization.<br/>
+    6.Use <u>threading.Thread(target=function)</u> to start a new thread.<br/>
+    7.Synchronization tools like Lock, Event, and Semaphore prevent race conditions.<br/>
+    8.For true parallelism in CPU-bound tasks, prefer <mark>multiprocessing</mark> over multithreading.<br/>
+    9.Threads can be <mark>daemon or non-daemon</mark>, affecting program exit behavior.<br/>
+    10.Python threads are <mark>managed by the OS</mark> using native threads under the hood.
+  </div>
+  <div class="What_are_decorators_in_Python">
+    1.A <mark>decorator</mark> is a function that modifies the behavior of another function or class.<br/>
+    2.Decorators are defined using the <u>@decorator_name</u> syntax above a function.<br/>
+    3.They allow <mark>code reuse</mark> for logging, access control, timing, etc.<br/>
+    4.Decorators wrap a function and return a <mark>modified or extended version</mark> of it.<br/>
+    5.Built-in decorators include <u>@staticmethod</u>, <u>@classmethod</u>, and <u>@property</u>.<br/>
+    6.A decorator takes a function as an argument and returns a new function.
+    7.Use <mark>nested functions</mark> and <mark>closures</mark> to create custom decorators.<br/>
+    8.Decorators help follow the <mark>DRY (Don't Repeat Yourself)</mark> principle.<br/>
+    9.Multiple decorators can be stacked to <mark>combine effects</mark>.<br/>
+    10.The <u>functools.wraps()</u> decorator preserves the <mark>original function metadata</mark>.<br/>
+  </div>
+  <div class="How_do_you_perform_file_handling_in_Python">
+    1.Use open<u>("filename", "mode")</u> to <mark>open a file</mark> <u>("r", "w", "a", "b", etc.)</u>.<br/>
+    2.Use <u>file.read()</u> to <mark>read entire content</mark> of the file.<br/>
+    3.Use <u>file.readline() or file.readlines()</u> to read <mark>line by line</mark>.<br/>
+    4.Use <u>file.write("text")</u> to <mark>write content</mark> to a file.<br/>
+    5.Always <mark>close the file</mark> using <u>file.close()</u> after operations.<br/>
+    6.Use <u>with open(...) as file:</u> to <mark>automatically close</mark> the file (context manager).<br/>
+    7.<u>"r"</u> is for <mark>reading</mark>, <u>"w"</u> for <mark>writing (overwrite)</mark>, and <u>"a"</u> for <mark>appending</mark>.<br/>
+    8.Use <u>"rb"</u> or <u>"wb"</u> for<mark>binary file operations</mark>.<br/>
+    9.Use <u>os</u> and <u>shutil</u> modules for <mark>advanced file handling</mark> (copy, delete, move).<br/>
+    10.Always handle files using <mark>try-except blocks</mark> to avoid runtime errors.
+  </div>
+  </body>
+</html>
