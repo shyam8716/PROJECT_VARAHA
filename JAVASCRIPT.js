@@ -294,4 +294,4 @@ console.log(result7);
 let x10=7,y10=2,z2=5
 let result8=x10<y10||x10<z2
 let n=!result8
-console.log(result8,n);
+console.log(result8,n)
