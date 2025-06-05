@@ -391,5 +391,17 @@
     <u>range()</u> returns a list in Python 2 and a lazy range object in Python 3<br/>
      while <u>xrange()</u> (Python 2 only) returns a memory-efficient iterator and doesn't exist in Python 3.
   </div>
+  <div class="Explain_the_use_of_the_'with'_statement_in_Python">
+    The <u>with</u> statement is used to <mark>simplify resource management</mark>, like file handling.
+    It automatically handles setup and cleanup actions (e.g., closing files).
+    with ensures that resources are properly released, even if an error occurs.
+    It is commonly used with files, sockets, and database connections.
+    It relies on objects that implement the context management protocol (__enter__ and __exit__).
+    Using with makes code cleaner and less error-prone.
+    You can create custom context managers using classes or contextlib.
+    Multiple context managers can be used in a single with statement (e.g., with A() as a, B() as b:).
+    with open("file.txt") as f: is a common example for file operations.
+    It improves readability and exception handling in resource-sensitive code.
+  </div>
   </body>
 </html>
