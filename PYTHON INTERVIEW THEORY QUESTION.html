@@ -391,17 +391,17 @@
     <u>range()</u> returns a list in Python 2 and a lazy range object in Python 3<br/>
      while <u>xrange()</u> (Python 2 only) returns a memory-efficient iterator and doesn't exist in Python 3.
   </div>
-  <div class="Explain_the_use_of_the_'with'_statement_in_Python">
-    The <u>with</u> statement is used to <mark>simplify resource management</mark>, like file handling.
-    It automatically handles setup and cleanup actions (e.g., closing files).
-    with ensures that resources are properly released, even if an error occurs.
-    It is commonly used with files, sockets, and database connections.
-    It relies on objects that implement the context management protocol (__enter__ and __exit__).
-    Using with makes code cleaner and less error-prone.
-    You can create custom context managers using classes or contextlib.
-    Multiple context managers can be used in a single with statement (e.g., with A() as a, B() as b:).
-    with open("file.txt") as f: is a common example for file operations.
-    It improves readability and exception handling in resource-sensitive code.
+  <div class="Explain_the_use_of_the_with_statement_in_Python">
+    1.The <u>with</u> statement is used to <mark>simplify resource management</mark>, like file handling.<br/>
+    2.It <mark>automatically handles setup and cleanup</mark> actions (e.g., closing files).<br/>
+    3.<u>with</u> ensures that resources are properly <mark>released, even if an error occurs</mark>.<br/>
+    4.It is commonly used with <mark>files, sockets, and database connections</mark>.<br/>
+    5.It relies on objects that implement the <mark>context management protocol</mark> (<u>__enter__ and __exit__</u>).<br/>
+    6.Using with makes code <mark>cleaner and less error-prone</mark>.<br/>
+    7.You can create custom context managers using <mark>classes</mark> or <u>contextlib</u>.<br/>
+    8.Multiple context managers can be used in <mark>a single</mark> with <mark>statement</mark> (e.g., <u>with A() as a, B() as b:</u>).<br/>
+    9.<u>with open("file.txt") as f:</u> is a common example for <mark>file operations</mark>.<br/>
+    10.It improves <mark>readability and exception handling</mark> in resource-sensitive code.
   </div>
   </body>
 </html>
