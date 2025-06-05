@@ -295,3 +295,10 @@ let x10=7,y10=2,z2=5
 let result8=x10<y10||x10<z2
 let n=!result8
 console.log(result8,n)
+//logical operator in javascript:
+//if-else:
+let num16=6
+let num17=4
+let result9=num16>num17
+if(result9)
+    console.log("num16 is greater")
