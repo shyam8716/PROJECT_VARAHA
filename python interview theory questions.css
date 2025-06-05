@@ -121,9 +121,20 @@
             margin:calc(How_do_you_perform_file_handling_in_Python);
             color:lightyellow;
             letter-spacing:calc(How_do_you_perform_file_handling_in_Python);
-            text-decoration:calc(What_are_decorators_in_Python);
+            text-decoration:chartreuse;
             line-height:calc(How_do_you_perform_file_handling_in_Python);
             border:chartreuse;
             font-family:Impact;
             padding:calc(How_do_you_perform_file_handling_in_Python);
+}
+.Explain_the_use_of_the_with_statement_in_Python{
+    text-align:inherit;
+            margin:inherit;
+            color:lime;
+            letter-spacing:inherit;
+            text-decoration:chocolate;
+            line-height:inherit;
+            border:chocolate;
+            font-family:sans-serif;
+            padding:inherit;
 }
