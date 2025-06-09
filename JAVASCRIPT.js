@@ -295,8 +295,8 @@ let x10=7,y10=2,z2=5
 let result8=x10<y10||x10<z2
 let n=!result8
 console.log(result8,n);
-//logical operator in javascript:
-//if-else:
+//Conditional statements in javascript:
+//If-else:
 //method-1:
 let num16=4;
 let num17=6;
@@ -320,7 +320,7 @@ if(num20>num21)
     console.log("num20 is greater");
 else
 console.log("num21 is greater");
-//if-else if:
+//If-else if:
 //method-1:
 let num22=6;
 let num23=4;
@@ -342,3 +342,9 @@ else if (num25%1==0 && num26%1==0)
     console.log(num25,"and",num26,"are odd numbers");
 else
 console.log(num25,"and",num26,"are prime numbers");
+//Ternary operator:
+//Even/odd:
+let num27=8
+let result20
+result20=num27%2===0?"even":"odd"//?: is to declare a ternary operator 
+console.log(result20)
