@@ -505,5 +505,29 @@
     9.<u>self</u> is just a <mark>convention</mark>, not a keyword—you can name it anything (but <u>self<a is standard).<br/>
     10.It enables <mark>object-oriented programming</mark> by linking data with behavior.
   </div>
+  <div class="How_does_Pythons_garbage_collection_work">
+    1.Python uses <mark>automatic garbage</mark> collection to reclaim unused memory.<br/>
+    2.It relies on <mark>reference counting</mark> to track the number of references to objects.<br/>
+    3.When an object's <mark>reference count drops to zero</mark>, it's immediately deallocated.<br/>
+    4.Python also uses a <mark>cyclic garbage collector</mark> to handle reference cycles.<br/>
+    5.The gc <mark>module</mark> provides tools to interact with the garbage collector.<br/>
+    6.Garbage collection runs <mark>periodically</mark> in the background.<br/>
+    7.Objects are grouped into <mark>three generations</mark> for optimized collection.<br/>
+    8.New objects start in <mark>generation 0</mark>, and surviving ones move to higher generations.<br/>
+    9.You can manually trigger garbage collection with <u>gc.collect()</u>.<br/>
+    10.Overusing global variables or circular references can <mark>delay memory cleanup</mark>.
+  </div>
+  <div class="What_are_Pythons_standard_libraries_and_can_you_name_a_few">
+    1.Python’s <mark>standard library</mark> is a collection of built-in modules for common tasks.<br/>
+    2.<u>math</u> – provides mathematical functions like <u>sqrt()</u>, <u>ceil()</u>, <u>factorial()</u>.<br/>
+    3.<u>datetime</u> – handles date and time operations (<u>datetime.now()</u>, <u>timedelta</u>).<br/>
+    4.<u>os</u> – interacts with the operating system (e.g., <u>os.path</u>, <u>os.listdir()</u>).<br/>
+    5.<u>sys</u> – accesses system-specific parameters and functions (e.g., <u>sys.argv</u>).<br/>
+    6.<u>random</u> – generates random numbers (<u>random.randint()</u>, <u>random.choice()</u>).<br/>
+    7.<u>json</u> – parses and generates JSON data (<u>json.loads()</u>, <u>json.dumps()</u>).<br/>
+    8.<u>re</u> – handles regular expressions (<u>re.match()</u>, <u>re.search()</u>).<br/>
+    9.<u>collections</u> – provides specialized data types like <u>Counter</u>, <u>deque</u>.<br/>
+    10.<u>urllib</u> – used for fetching data across the web (<u>urllib.request</u>).
+  </div>
   </body>
 </html>
