@@ -294,11 +294,51 @@ console.log(result7);
 let x10=7,y10=2,z2=5
 let result8=x10<y10||x10<z2
 let n=!result8
-console.log(result8,n)
+console.log(result8,n);
 //logical operator in javascript:
 //if-else:
-let num16=6
-let num17=4
+//method-1:
+let num16=4;
+let num17=6;
 let result9=num16>num17
 if(result9)
-    console.log("num16 is greater")
+    console.log("num16 is greater");
+else
+console.log("num17 is greater");
+//method-2:
+let num18=4;
+let num19=3;
+let result10=num18<num19
+if(result10)
+    console.log("num19 is greater");
+else
+console.log("num18 is greater");
+//method-3:
+let num20=6;
+let num21=4;
+if(num20>num21)
+    console.log("num20 is greater");
+else
+console.log("num21 is greater");
+//if-else if:
+//method-1:
+let num22=6;
+let num23=4;
+let num24=7;
+if(num22>num23&&num23>num24){
+    console.log("num22 is greatest");
+}
+else if (num24<num23 && num23<num22){
+    console.log("num24 is greater");
+}
+else
+console.log("num23 is greast")
+//method-2:
+let num25=4;
+let num26=6;
+if (num25%2==0 && num26%2==0)
+    console.log(num25,"and",num26,"are even numbers");
+else if (num25%1==0 && num26%1==0)
+    console.log(num25,"and",num26,"are odd numbers");
+else
+console.log(num25,"and",num26,"are prime numbers");
