@@ -193,3 +193,36 @@
             font-family:'Times New Roman';
             padding-top: 44%;
 }
+.Explain_the_difference_between_Python_2_and_Python_3{
+    text-align:var(42vmin);
+            margin-top:45cap;
+            color:mediumblue;
+            letter-spacing:var(43vw);
+            text-decoration:color(xyz-d65 red green blue);
+            line-height:var(44%);
+            border-top:45ch;
+            font-family:Georgia;
+            padding-top:45cap;
+}
+.What_is_a_virtual_environment_in_Python_and_why_is_it_used{
+    text-align:var(44cap);
+            margin-top:46ch;
+            color:mediumblue;
+            letter-spacing:var(45cap);
+            text-decoration:color(from color srgb red green white);
+            line-height:var(46ch);
+            border-top:46cm;
+            font-family:sans-serif;
+            padding-top:46ch;
+}
+.How_do_you_handle_exceptions_using_try_except_else_and_finally_blocks{
+    text-align:var(aqua);
+            margin-top:47cm;
+            color:mintcream;
+            letter-spacing:var(Arial);
+            text-decoration:color-mix(in srgb, red 50%, green 50%);
+            line-height:var(auto);
+            border-top:47cqb;
+            font-family:'Arial Narrow Bold';
+            padding-top:47cm;
+}
