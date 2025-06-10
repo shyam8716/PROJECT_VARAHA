@@ -529,5 +529,41 @@
     9.<u>collections</u> – provides specialized data types like <u>Counter</u>, <u>deque</u>.<br/>
     10.<u>urllib</u> – used for fetching data across the web (<u>urllib.request</u>).
   </div>
+  <div class="Explain_the_difference_between_Python_2_and_Python_3">
+    1.<mark>Python 2 uses</mark> <u>print</u> <mark>as a statement</mark>, while <mark>Python 3 uses it as a function</mark>.<br/>
+    2.<mark>Integer division</mark> in Python 2 truncates decimals; <mark>in Python 3 it returns a float</mark> by default.<br/>
+    3.<mark>Unicode is default</mark> in Python 3; Python 2 uses ASCII by default.<br/>
+    4.<u>xrange()</u> <mark>exists</mark> in Python 2; <mark>replaced by</mark> <u>range()</u> in Python 3.<br/>
+    5.<mark>Error handling syntax</mark> differs: <u>except Exception, e:</u> (Py2) vs <u>except Exception as e:</u> (Py3).<br/>
+    6.<mark>Python 2 is no longer supported</mark> officially since January 1, 2020.<br/>
+    7.Python 3 has <mark>better library support</mark> and performance improvements.<br/>
+    8.In Python 2, <u>input()</u> evaluates input as code; in Python 3, it always returns a string.<br/>
+    9.<mark>F-strings</mark> and <mark>type hints</mark> are supported in Python 3, not in Python 2.<br/>
+    10.Python 3 introduced <mark>many syntax and library changes</mark> to improve consistency and clarity.
+  </div>
+  <div class="What_is_a_virtual_environment_in_Python_and_why_is_it_used"?>
+    1.A <mark>virtual environment</mark> is an isolated Python environment for a specific project.<br/>
+    2.It allows you to <mark>manage dependencies</mark> separately from the global Python setup.<br/>
+    3.Virtual environments prevent <mark>version conflicts</mark> between packages across projects.<br/>
+    4.Use python <u>-m venv env_name</u> to create a virtual environment.<br/>
+    5.Activate it using <u>source env_name/bin/activate</u> (Linux/macOS) or <u>env_name\Scripts\activate</u> (Windows).<br/>
+    6.It creates a local copy of the Python interpreter and <u>pip</u>.<br/>
+    7.Each virtual environment has its own <mark>site-packages</mark> directory.<br/>
+    8.It enables <mark>clean testing</mark> and deployment of projects.<br/>
+    9.Deactivating with <u>deactivate</u> switches back to the system Python.<br/>
+    10.Tools like <u>venv</u>, <u>virtualenv</u>, and <u>pipenv</u> are used to manage virtual environments.<br/>
+  </div>
+  <div class="How_do_you_handle_exceptions_using_try_except_else_and_finally_blocks">
+    1.Use a <u>try</u> <mark>block</mark> to write code that might raise an exception.<br/>
+    2.Use an <u>except</u> <mark>block</mark> to catch and handle specific or general exceptions.<br/>
+    3.Use an <u>else</u> <mark>block</mark> to run code only if no exception occurs in the try block.<br/>
+    4.Use a <u>finally</u> <mark>block</mark> to execute code regardless of whether an exception occurred or not.<br/>
+    5.Multiple <u>except</u> blocks can handle <mark>different exception types</mark> separately.<br/>
+    6.The <u>finally</u> block is often used for <mark>clean-up tasks</mark>, like closing files or connections.<br/>
+    7.Exceptions can be caught using <u>except Exception as e</u> to access the error message.<br/>
+    8.You can use <u>pass</u> in <u>except</u> to <mark>suppress the exception</mark> silently.<br/>
+    9.Avoid catching general exceptions unless necessary—<mark>be specific</mark> when possible.<br/>
+    10.Combining all blocks helps ensure <mark>safe execution and clean exit</mark> of a program.<br/>
+  </div>
   </body>
 </html>
