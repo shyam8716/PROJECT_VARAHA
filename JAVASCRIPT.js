@@ -344,7 +344,35 @@ else
 console.log(num25,"and",num26,"are prime numbers");
 //Ternary operator:
 //Even/odd:
-let num27=8
-let result20
+let num27=8;
+let result20;
 result20=num27%2===0?"even":"odd"//?: is to declare a ternary operator 
 console.log(result20)
+//Switch case statement:
+let day="monday";
+switch(day){
+    case 'monday':
+        console.log("today is monday class timings 9:00 am to 10:00pm");
+        break
+    case 'tuesday':
+        console.log("today is tuesday class timings 10:00 am to 11:00pm");
+        break
+    case 'wednusday':
+        console.log("today is wednusday class timings 11:00 am to 12:00pm");
+        break
+    case 'thursday':
+        console.log("today is thursday class timings 12:00 am to 1:00pm");
+        break
+    case 'friday':
+        console.log("today is friday class timings 1:00 am to 2:00pm");
+        break
+    case 'saturday':
+        console.log("today is saturday class timings 2:00 am to 3:00pm");
+        break
+    case 'sunday':
+        console.log("today is sunday class fest day");
+        break
+    default:
+        console.log("today is holiday");
+}
+console.log("you got your day")
