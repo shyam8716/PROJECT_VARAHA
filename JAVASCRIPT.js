@@ -376,3 +376,11 @@ switch(day){
         console.log("today is holiday");
 }
 console.log("you got your day")
+//Template literal:
+let num28=7
+let num29=4
+let result21=num28+num29
+//method-1:
+console.log("the addition of"+num28+"and"+num29+"is"+result21)
+//method-2:
+console.log(`the addition of ${num28}and ${num29} is ${result21}`)
