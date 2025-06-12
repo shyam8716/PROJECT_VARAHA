@@ -384,3 +384,30 @@ let result21=num28+num29
 console.log("the addition of"+num28+"and"+num29+"is"+result21)
 //method-2:
 console.log(`the addition of ${num28}and ${num29} is ${result21}`)
+//Loops:
+//While loop:
+//method-1:
+let i=1;
+while(i<=5)
+{
+    console.log("hi");
+    i++
+}
+//method-2:
+let i1=5;
+while(i>=0)
+{
+    console.log("hi",i1);
+}
+//Do-while loop:
+//method-1:
+let i2=10;
+do
+{
+    console.log("hi",i2);
+}while(i<=5)
+//method-2:
+let i3=20
+do{
+    console,log("hi",i3);
+}while(i<=10)
