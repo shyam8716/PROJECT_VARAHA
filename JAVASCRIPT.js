@@ -411,3 +411,8 @@ let i3=20
 do{
     console,log("hi",i3);
 }while(i<=10)
+//For loop
+for(let i4=1;i4<=5;i4++)
+{
+    console.log("hi",i4);
+}
