@@ -416,3 +416,10 @@ for(let i4=1;i4<=5;i4++)
 {
     console.log("hi",i4);
 }
+//Nested loop:
+for(let i5=1;i<=5;i++)
+{
+    console.log("hi",i5)
+    for(let j=1;j<=5;j++)
+        console.log("hello",j)
+}
