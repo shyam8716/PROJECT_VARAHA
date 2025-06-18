@@ -25,3 +25,11 @@ elif c==15:
       print(c,":you want to take permission from your parents/guardian")
 else:
       print(c,":you are not elgible for vote")
+#Write a program that asks the user for a password. If the password is "Python123", print "Access granted", otherwise print "Access denied".
+d=str(input("enter d value:"))
+print("user name:",d)
+e=str(input("enter e value:"))
+if e=="python123":
+      print("access granted")
+else:
+      print("access denied")
