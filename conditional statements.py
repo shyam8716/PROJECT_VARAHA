@@ -33,3 +33,12 @@ if e=="python123":
       print("access granted")
 else:
       print("access denied")
+#If-elif-else statements
+#Write a program that checks if a given year is a leap year or not.
+f=int(input("enter f value:"))
+if  f%400==0:
+      print(f,"is a leap year")
+elif f%400!=400:
+      print(f," is a non leap year")
+else:
+      print(f,"none of the above")
