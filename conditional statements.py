@@ -42,3 +42,23 @@ elif f%400!=400:
       print(f," is a non leap year")
 else:
       print(f,"none of the above")
+# Write a program that asks the user to enter marks and assigns grades as follows:
+# 90-100: A
+# 80-89: B
+# 70-79: C
+# 60-69: D
+# Below 60: F
+g=int(input("enter g value:"))
+if g<=100 and g==90:
+      print(g,"A-TOPPER")
+elif g<=80 and g==89:
+      print(g,"B-BELOW TOPPER")
+elif g<=70 and g==79:
+      print(g,"C-AVERGE")
+elif g<=60 and g==69:
+      print(g,"D-BELOW AVERAGE")
+elif g>60:
+      print(g,"F-POOR")
+else:
+      print(g,"VERY POOR")
+
