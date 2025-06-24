@@ -58,7 +58,23 @@ elif g<=70 and g==79:
 elif g<=60 and g==69:
       print(g,"D-BELOW AVERAGE")
 elif g>60:
-      print(g,"F-POOR")
+      print(g,"E-POOR")
 else:
-      print(g,"VERY POOR")
+      print(g,"F-VERY POOR")
 
+# Write a Python program that takes a temperature input in Celsius and categorizes it as:
+# Below 0°C: "Freezing"
+# 0-15°C: "Cold"
+# 16-30°C: "Warm"
+# Above 30°C: "Hot"
+h=float(input("enter h value:"))
+if  h<0:
+      print(h,":Freezing")
+elif  h<=15 and h==0:
+      print(h,":Cold")
+elif h<=30 and h==16:
+      print(h, ":Warm")
+elif h>30 and h<100:
+      print(h,":Hot")
+else:
+      print(h,":neutral")
