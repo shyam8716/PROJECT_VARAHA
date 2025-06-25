@@ -78,3 +78,21 @@ elif h>30 and h<100:
       print(h,":Hot")
 else:
       print(h,":neutral")
+# Write a program to calculate BMI using:
+# BMI = weight / height²
+# BMI < 18.5 → Underweight
+# 18.5–24.9 → Normal
+# 25–29.9 → Overweight
+# 30 or above → Obese
+BMI=float(input("enter BMI value:"))
+if BMI<18.5:
+      print(BMI,":UNDERWEIGHT")
+elif BMI<=24.9 and BMI<=18.5:
+      print(BMI,":NORMAL")
+elif BMI<=29.9 and BMI<=25:
+      print(BMI,":OVERWEIGHT")
+elif BMI>=30:
+      print(BMI,":OBESE")
+else:
+      print(BMI,":VERY OVER OBESR")
+BMI = float(input("Enter BMI value: "))
