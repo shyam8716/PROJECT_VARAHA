@@ -444,4 +444,4 @@ let alien2={
     technology:'Python',
     work_experience:3
 }
-console.log(alien2[input])
+console.log(alien2)
