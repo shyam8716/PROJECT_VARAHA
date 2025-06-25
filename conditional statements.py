@@ -84,7 +84,9 @@ else:
 # 18.5–24.9 → Normal
 # 25–29.9 → Overweight
 # 30 or above → Obese
-BMI=float(input("enter BMI value:"))
+weight=float(input("enter weight value:"))
+height=float(input("enter height value:"))
+BMI=weight/height*height
 if BMI<18.5:
       print(BMI,":UNDERWEIGHT")
 elif BMI<=24.9 and BMI<=18.5:
