@@ -384,42 +384,64 @@ let result21=num28+num29
 console.log("the addition of"+num28+"and"+num29+"is"+result21)
 //method-2:
 console.log(`the addition of ${num28}and ${num29} is ${result21}`)
-//Loops:
-//While loop:
+// //Loops:
+// //While loop:
+// //method-1:
+// let i=1;
+// while(i<=5)
+// {
+//     console.log("hi");
+//     i++
+// }
+// //method-2:
+// let i1=5;
+// while(i>=0)
+// {
+//     console.log("hi",i1);
+// }
+// //Do-while loop:
+// //method-1:
+// let i2=10;
+// do
+// {
+//     console.log("hi",i2);
+// }while(i<=5)
+// //method-2:
+// let i3=20
+// do{
+//     console,log("hi",i3);
+// }while(i<=10)
+// //For loop
+// for(let i4=1;i4<=5;i4++)
+// {
+//     console.log("hi",i4);
+// }
+// //Nested loop:
+// for(let i5=1;i<=5;i++)
+// {
+//     console.log("hi",i5)
+//     for(let j=1;j<=5;j++)
+//         console.log("hello",j)
+// }
+//Objects in javascript:
 //method-1:
-let i=1;
-while(i<=5)
-{
-    console.log("hi");
-    i++
+let alien ={}//object
+console.log(alien)
+let alien1={
+    name:'R.Megha Shyam',//declaring properties in alien1 object
+    technology:'Java script',
 }
+console.log(alien1);
+alien1=
+{
+    work_experience:4
+};
+console.log(alien1['work_experience']);
 //method-2:
-let i1=5;
-while(i>=0)
-{
-    console.log("hi",i1);
+let input='name'
+let alien2={
+    name:'R.Vani',
+    technology:'Python',
+    work_experience:3
 }
-//Do-while loop:
-//method-1:
-let i2=10;
-do
-{
-    console.log("hi",i2);
-}while(i<=5)
-//method-2:
-let i3=20
-do{
-    console,log("hi",i3);
-}while(i<=10)
-//For loop
-for(let i4=1;i4<=5;i4++)
-{
-    console.log("hi",i4);
-}
-//Nested loop:
-for(let i5=1;i<=5;i++)
-{
-    console.log("hi",i5)
-    for(let j=1;j<=5;j++)
-        console.log("hello",j)
-}
+console.log(alien2[input])
