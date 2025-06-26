@@ -97,4 +97,15 @@ elif BMI>=30:
       print(BMI,":OBESE")
 else:
       print(BMI,":VERY OVER OBESR")
-BMI = float(input("Enter BMI value: "))
+# Write a program that takes three numbers as input and finds the largest among them using nested if statements.
+i=int(input("enter i value:"))
+j=int(input("enter j value:"))
+k=int(input("enter k value:"))
+if i>k and i>j:
+      print(i,":the largest number")
+elif j>k and j>i:
+      print(j,":the largest number")
+elif k>i and k>j:
+      print(k,"the largest number")
+else:
+      print(":all are equal")
