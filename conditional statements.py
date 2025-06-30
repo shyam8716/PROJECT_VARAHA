@@ -109,3 +109,15 @@ elif k>i and k>j:
       print(k,"the largest number")
 else:
       print(":all are equal")
+# Write a Python program to check if a person is eligible for a loan. The conditions are:
+# Age must be 21 or older
+# Monthly salary must be at least $2000
+# If salary is below $3000, a guarantor is required
+l=str(input("enter l value:"))
+m=int(input("enter l value:"))
+if m>=21 and m==2000:
+      print(l,": is elgible to take a loan")
+      print(l,":monthly is also elgible for loan")
+      print(l,"your loan has been successful")
+else:
+      print(l,":salary is below $3000, a guarantor is required")
