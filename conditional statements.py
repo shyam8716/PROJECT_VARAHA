@@ -123,7 +123,7 @@ else:
       print(l,":salary is below $3000, a guarantor is required")
 # Write a Python program that checks if a number is divisible by both 3 and 5.
 n=int(input("enter n value:"))
-if n%3==0 or n%5==0:
+if n%3==0 and n%5==0:
       print(n,": is divisible by 3")
       print(n,": is divisible by 5")
 else:
