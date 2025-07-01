@@ -135,3 +135,5 @@ o=str(input("enter o value:"))
 p=str(input("enter p value:"))
 if o==user_name and p==pass_word:
       print(o,":user name\n",p,":pass word\n","Login successful")
+else:
+      print ("Invalid credentials")
