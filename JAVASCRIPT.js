@@ -445,3 +445,22 @@ let alien2={
     work_experience:3
 }
 console.log(alien2)
+//Complex object:
+let alien3={
+    name:'R.Megha Shyam',
+    tech:'c',
+    laptop:{      //complex object
+        cpu:'i7',
+        ram:'4gb',
+        brand:'Asus'
+    }
+}
+//method-1:
+console.log(alien3);
+//method-2:
+console.log(alien3.laptop);
+console.log(alien3.laptop.brand);
+console.log(alien3.laptop.brand.length)
+//method-3:
+delete alien3.laptop//TO  delete a property in nested object
+console.log(alien3)
