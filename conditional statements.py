@@ -124,7 +124,6 @@ else:
 # Write a Python program that checks if a number is divisible by both 3 and 5.
 n=int(input("enter n value:"))
 if n%3==0 and n%5==0:
-      print(n,": is divisible by 3")
-      print(n,": is divisible by 5")
+      print(n,": is divisible by 3 and 5")
 else:
       print(n,"is not divisible by  both 3 and 5")
