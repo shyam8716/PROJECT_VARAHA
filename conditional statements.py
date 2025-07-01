@@ -97,6 +97,7 @@ elif BMI>=30:
       print(BMI,":OBESE")
 else:
       print(BMI,":VERY OVER OBESR")
+#Nested If Questions:
 # Write a program that takes three numbers as input and finds the largest among them using nested if statements.
 i=int(input("enter i value:"))
 j=int(input("enter j value:"))
@@ -122,6 +123,7 @@ if m>=21 and m1>=2000:
       print(l,"your loan has been successful")
 else:
       print(l,":salary is below $3000, a guarantor is required")
+#Logical Operators Questions:
 # Write a Python program that checks if a number is divisible by both 3 and 5.
 n=int(input("enter n value:"))
 if n%3==0 and n%5==0:
