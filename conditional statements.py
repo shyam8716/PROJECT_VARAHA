@@ -114,10 +114,11 @@ else:
 # Monthly salary must be at least $2000
 # If salary is below $3000, a guarantor is required
 l=str(input("enter l value:"))
-m=int(input("enter l value:"))
-if m>=21 and m==2000:
-      print(l,": is elgible to take a loan")
-      print(l,":monthly is also elgible for loan")
+m=int(input("enter m value:"))
+m1=int(input("enter m1 value:"))
+if m>=21 and m1>=2000:
+      print(m,": is elgible to take a loan")
+      print(m1,":monthly is also elgible for loan")
       print(l,"your loan has been successful")
 else:
       print(l,":salary is below $3000, a guarantor is required")
