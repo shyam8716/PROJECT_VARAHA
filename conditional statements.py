@@ -128,3 +128,10 @@ if n%3==0 and n%5==0:
       print(n,": is divisible by 3 and 5")
 else:
       print(n,"is not divisible by  both 3 and 5")
+#Write a program that asks the user for their username and password. If both match the predefined values, print "Login successful"; otherwise, print "Invalid credentials".
+user_name="R.Megha Shyam"
+pass_word="Shyamu@345"
+o=str(input("enter o value:"))
+p=str(input("enter p value:"))
+if o==user_name and p==pass_word:
+      print(o,":user name\n",p,":pass word\n","Login successful")
