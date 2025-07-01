@@ -462,5 +462,5 @@ console.log(alien3.laptop);
 console.log(alien3.laptop.brand);
 console.log(alien3.laptop.brand.length)
 //method-3:
-delete alien3.laptop//TO  delete a property in nested object
+delete alien3.laptop//To  delete a property in nested object
 console.log(alien3)
