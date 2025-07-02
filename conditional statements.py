@@ -139,3 +139,12 @@ if o==user_name and p==pass_word:
       print(o,":user name\n",p,":pass word\n","Login successful")
 else:
       print ("Invalid credentials")
+#Write a program that checks if a triangle is valid based on the sum of its three angles (should be 180 degrees).
+q=int(input("enter q value:"))
+r=int(input("enter r value:"))
+s=int(input("enter s value:"))
+t=q+r+s
+if t==180:
+      print(t,"triangle is valid based on the sum of its three angles")
+else:
+      print(t,"triangle is not valid based on the sum of its three angles")
