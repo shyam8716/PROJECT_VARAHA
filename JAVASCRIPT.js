@@ -464,3 +464,21 @@ console.log(alien3.laptop.brand.length)
 //method-3:
 delete alien3.laptop//To  delete a property in nested object
 console.log(alien3)
+let alien4={
+    name:'shyam',
+    tech:'java',
+    laptop:{
+        cpu:'i7',
+        ram:'4',
+        brand:'del'
+    }
+}
+for(let key in alien4)
+{
+    console.log(key,alien4[key]);
+}
+function greet()
+{
+    console.log("welcome to functions concept");
+}
+greet()
