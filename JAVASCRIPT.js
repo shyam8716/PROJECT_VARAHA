@@ -464,6 +464,7 @@ console.log(alien3.laptop.brand.length)
 //method-3:
 delete alien3.laptop//To  delete a property in nested object
 console.log(alien3)
+//For loop in objects:
 let alien4={
     name:'shyam',
     tech:'java',
@@ -477,8 +478,25 @@ for(let key in alien4)
 {
     console.log(key,alien4[key]);
 }
+//Functions in javascript:
 function greet()
 {
     console.log("welcome to functions concept");
 }
 greet()
+//Function return and passing:
+//Returning a function:
+function greets()
+{
+    return "hello world"
+}
+let str=greets();
+console.log(str);
+//Passing a function:
+function greets1(users)
+{
+      return 'hello world'
+}
+let users='navin';
+let str1=greets1(users);
+console.log(str1);
