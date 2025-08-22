@@ -500,3 +500,15 @@ function greets1(users)
 let users='navin';
 let str1=greets1(users);
 console.log(str1);
+//Function expression:
+let add=function(num1,num2)
+{
+    return num1+num2
+}
+let sum=add
+//method-1:
+let result22=add(5,6)
+console.log(result22)
+//method-2:
+let result23=sum(5,6)
+console.log(result23)
