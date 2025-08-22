@@ -493,11 +493,11 @@ function greets()
 let str=greets();
 console.log(str);
 //Passing a function:
-function greets1(users)
+function greets1(num30)
 {
-      return 'hello world'
+    return 'hello world'
 }
-let users='navin';
+let num30='navin';
 let str1=greets1(users);
 console.log(str1);
 //Function expression:
