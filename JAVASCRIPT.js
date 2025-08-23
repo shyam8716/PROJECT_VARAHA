@@ -495,10 +495,10 @@ console.log(str);
 //Passing a function:
 function greets1(num30)
 {
-    return 'hello world'
+    return 'hello ${num30}'
 }
 let num30='navin';
-let str1=greets1(users);
+let str1=greets1(num30);
 console.log(str1);
 //Function expression:
 let add=function(num1,num2)
@@ -512,3 +512,13 @@ console.log(result22)
 //method-2:
 let result23=sum(5,6)
 console.log(result23)
+//Local-global variable:
+let users='navin'//global variable
+function greets2(u)
+{
+    let num31=5
+    console.log(users)
+    return 'hello ${num31}'
+}
+let str2=greets2(users)
+console.log(str2)
