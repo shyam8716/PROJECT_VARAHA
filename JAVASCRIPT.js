@@ -516,7 +516,7 @@ console.log(result23)
 let users='navin'//global variable
 function greets2(u)
 {
-    let num31=5
+    let num31=5//local variable
     console.log(users)
     return 'hello ${num31}'
 }
