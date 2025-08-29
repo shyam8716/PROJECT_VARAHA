@@ -522,3 +522,14 @@ function greets2(u)
 }
 let str2=greets2(users)
 console.log(str2)
+//Arrow function:
+//method-1:
+let greets3=(user)=>{ //=>arrow function
+    console.log("hello" +user);
+    return 1;
+}
+console.log(greets3('shyam'))
+//method-2:
+let sums=(num32,num33)=>num32+num33
+let result24=sums(5,6)
+console.log(result24)
