@@ -528,8 +528,18 @@ let greets3=(user)=>{ //=>arrow function
     console.log("hello" +user);
     return 1;
 }
-console.log(greets3('shyam'))
+console.log(greets3('shyam'));
 //method-2:
 let sums=(num32,num33)=>num32+num33
 let result24=sums(5,6)
-console.log(result24)
+console.log(result24);
+//What are methods:
+let laptop={
+    cpu:'i9',
+    ram:15,
+    brand:'HP',
+    greets4:function(){
+        console.log("hello world");
+    }
+}
+laptop.greets4();
