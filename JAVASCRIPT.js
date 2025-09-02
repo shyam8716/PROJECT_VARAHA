@@ -542,4 +542,14 @@ let laptop={
         console.log("hello world");
     }
 }
-laptop.greets4();
+ laptop.greets4();
+//What is this keyword:
+let laptop1={
+    cpu:'i7',
+    ram:20,
+    brand:'dell',
+    getconfig:function(){
+        console.log(this.cpu);//this is a keyword
+    }
+}
+laptop1.getconfig()
