@@ -553,3 +553,16 @@ let laptop1={
     }
 }
 laptop1.getconfig()
+//Constructor function:
+function Alien(name,tech){
+    this.name=name;
+    this.tech=tech;
+    this.work=function(){
+        console.log("solving bugs from 12 hrs");
+    }
+    return 7;
+}
+let alien5=new Alien('navin','js');
+let alien6=new Alien('kiran','java');
+alien5.tech='blockchain';
+console.log(alien5)
