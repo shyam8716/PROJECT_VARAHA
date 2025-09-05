@@ -566,3 +566,8 @@ let alien5=new Alien('navin','js');
 let alien6=new Alien('kiran','java');
 alien5.tech='blockchain';
 console.log(alien5)
+//Creating array and fetching elements:
+let values=[];//creating an empty array
+values.push(5);//giving values to an empty array
+console.log(values);
+console.log(values.length);//showing length of the array
