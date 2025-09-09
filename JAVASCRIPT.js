@@ -571,3 +571,9 @@ let values=[];//creating an empty array
 values.push(5);//giving values to an empty array
 console.log(values);
 console.log(values.length);//showing length of the array
+//Array functions:
+//For each():
+let nums=[5,10,15,20,25,30]
+nums.forEach((n,i,nums)=>{
+    console.log(n,i,nums)
+})
