@@ -575,5 +575,13 @@ console.log(values.length);//showing length of the array
 //For each():
 let nums=[5,10,15,20,25,30]
 nums.forEach((n,i,nums)=>{
-    console.log(n,i,nums)
+    console.log(n,i,nums);
 })
+//Different types of data in array:
+//Method-1:
+let names=['navin','kiran','chirag']
+names[3]='avni'
+console.log(names)
+//Method-2:
+let data11=['navin',5,{tech:'js'},function(){console.log("hello world");}];
+data11[3]();
