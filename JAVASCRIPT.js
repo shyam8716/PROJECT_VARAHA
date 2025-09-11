@@ -585,3 +585,26 @@ console.log(names)
 //Method-2:
 let data11=['navin',5,{tech:'js'},function(){console.log("hello world");}];
 data11[3]();
+//Array method filter map reduce:
+//Filter
+//Method-1:
+let nums13=[5,10,15,20,30,40,50]
+console.log(nums13.filter(n=>n%2===0));
+//Method-2:
+nums13.filter(n=>n%2===0)
+.forEach(n=> {
+    console.log(n*2)
+});
+//Map:
+let nums14=[60,65,70,75,80,85,90,95,100]
+nums14.filter(n=>n%2===0)
+.map(n=>n+2)
+.forEach(n=>
+    console.log(n)
+)
+//Reduce:
+let nums15=[105,110,115,120,125,130,135,140,145,150]
+let result25=nums.filter(n=>n%2===0)
+.map(n=>n-2)
+.reduce((a,b)=>a/b)
+console.log(result25)
