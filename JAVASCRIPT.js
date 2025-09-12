@@ -608,3 +608,20 @@ let result25=nums.filter(n=>n%2===0)
 .map(n=>n-2)
 .reduce((a,b)=>a/b)
 console.log(result25)
+//Push:
+let nums16=[5,7,8,9]
+console.log(nums16.push(2));
+console.log(nums16)
+//Pop:
+console.log(nums16.pop());
+//Shift:
+console.log(nums16.shift());
+//Unshift:
+console.log(nums16.unshift());
+//Splice:
+//Method-1:
+console.log(nums16.splice());
+//Method-2:
+console.log(nums16.splice(2,1));
+//Method-3:
+console.log(nums16.splice(2,1,11,15));
