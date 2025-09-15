@@ -625,3 +625,23 @@ console.log(nums16.splice());
 console.log(nums16.splice(2,1));
 //Method-3:
 console.log(nums16.splice(2,1,11,15));
+//For each:
+let nums17=[3,4,"Navin","rama","chirag"]
+nums.forEach(values=>{
+    console.log(values);
+})
+//Set:
+//Method-1:
+let nums18=new Set("booksstall")
+console.log(nums18);
+//Method-2:
+let nums19=new Set()
+nums19.add(3);
+nums19.add(3);
+nums19.add(4);
+nums19.add("Shyam");
+nums19.add("Megha");
+nums19.add("Shyam");
+console.log(nums19);
+//Has();
+console.log(nums19.has(3))
