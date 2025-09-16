@@ -644,4 +644,20 @@ nums19.add("Megha");
 nums19.add("Shyam");
 console.log(nums19);
 //Has();
-console.log(nums19.has(3))
+console.log(nums19.has(3));
+//Map():
+//Method-1:
+let map=new Map();
+map.set("reddy","java");
+map.set("kiran","android");
+map.set("pratap","ml");
+console.log(map);
+//method-2:
+for(let [k,v] of map){
+    console.log(k,":",v)
+}
+//Method-3:
+map.set("reddy","c");
+map.forEach((k,v)=>{
+    console.log(k,":",v)
+})
