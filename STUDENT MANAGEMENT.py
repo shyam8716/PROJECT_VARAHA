@@ -16,12 +16,3 @@ print(section[0])
 print(section[7])
 print(section[0:])
 print(section[-6:])
-#inserting new student in section list
-section.insert(5,"girish")
-print(section)
-#using len to find the total number of students in section list
-print(len(section))
-#using  slicing to show a subset of students (e.g., first 3 toppers).
-print(section[0:3])
-print(section[0::2])
-print(section[0:3:2])
